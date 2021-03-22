@@ -1,4 +1,8 @@
 
-public class StationaryComputer {
+public class StationaryComputer extends Computer {
+	
+	public StationaryComputer() {
+		this.setClassName("Stationary");
+	}
 
 }
